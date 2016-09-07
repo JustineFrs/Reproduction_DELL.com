@@ -1,0 +1,263 @@
+/* HEADER PIERRE */
+
+li{
+    list-style:none;
+    margin:15px 5px 15px 5px;
+}
+.niveau1{
+    display:block;
+    float:left;
+    width:150px;
+    margin-right:5px;
+    margin-bottom:15px;
+    text-align:center;
+    color:white;
+}
+.niveau2{
+    postion:absolute;
+    margin-top:10px;
+    display:none;
+    background-color:white;
+    color:#007DB8;
+    margin-right:auto;
+    text-align:left;
+    width:200px;
+}
+.niveau2 li{
+    width:120px;
+    margin-top:10px;
+}
+.niveau3{
+     postion:absolute;
+    margin-top:10px;
+    margin-left:-10px;
+    display:none;
+    background-color:white;
+    color:#007DB8;
+    }
+ul ul {
+    display: none;
+}
+li:hover ul.niveau2, li li:hover ul.niveau3 {
+    display:block;
+}
+.Header{
+    background-color:#007DB8;
+}
+img, .input-group{
+    margin-top:15px;
+}
+.img_dell{
+    height: 40px;
+    margin-left: 277px; 
+    margin-top: 11px;
+}
+li{
+    color:white;
+}
+.collapse{
+    background-color: blue;
+}
+.row-user{
+    margin-top:25px;
+}
+.btn_sign{
+    color: white;
+    background-size: 0.5em;
+}
+.bonhomme{
+    color: white;
+    font-size: 30px;
+}
+
+/*BODY JP */
+
+ .description{
+   position: absolute;
+   height: 150px;
+   width: 320px;
+   background-color: white;  
+   font-size: 18px;
+   border-radius: 5px;
+   opacity:0.8;
+   bottom: 0;
+   top: -400px;
+   margin-left:10px;
+   text-align:center;
+}
+.fond{
+    padding: 0;
+    margin-top: -15px;
+}
+.img_1{
+
+    width: 100%;
+}
+span{
+   color:blue;
+   font-size:25px;
+}
+.input_btn{
+   background-color:#1B17ED ;
+   color:white;
+   border: none;
+   margin-right:200px;
+   margin-top: 20px;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
+/*BODY JUSTINE */
+
+.IMAGES_HAUT{
+   padding-right: 0;
+    padding-left: 0;
+    padding-top: 15px;
+}
+.IMAGES_BAS{
+   padding-right: 0;
+    padding-left: 0;
+    padding-top: 15px;
+}
+.marge1{
+    padding-left: 0;
+}
+.marge2{
+    padding-right: 0;
+}
+
+.img_verte{
+    boxe-sizing: border-box;
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    
+}
+.img_femme1{
+    boxe-sizing: border-box;
+    width: 100%;
+   
+}
+.bloc_1{
+    width: 100%;
+    height: 100%;
+}
+.bloc_2{
+    width: 100%;
+    height: 100%;   
+}
+div.description_content{
+    position: absolute;
+    height: 200px;
+    width: 300px;
+    background-color: white;  
+    font-size: 16px;
+    border-radius: 5px;
+    top: 38px;
+    right: 15px;
+    padding: 20px;     
+}
+p.text1_imgverte{
+    color: #007DB8;    
+}
+p.text2_imgverte{
+    color: #A2A2A2;
+    margin-bottom: 17px;
+    
+}
+p.text_imgs{
+    font-size: 18px!important;
+    padding-top: 10px!important;
+}
+.btn_learn{
+    background-color: #007DB8;
+    border: 1px solid;
+    text-decoration: none;
+    padding: 7px;
+    color: white;
+    font-size: 15px;
+
+}
+.btn_learn:hover{
+    background-color: #00447C;
+    text-decoration: none;
+    color: white;
+}
+p.description_content{
+    position: absolute;
+    bottom: -10px;
+    width: 100%;
+    height: 70px;
+    background-color: white;  
+    font-size: 14px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-right: 20px;
+    color: #007DB8;  
+    opacity: 0.8;    
+}
+.img_ordi{
+    boxe-sizing: border-box;
+    width: 100%;
+
+}
+.img_femmehomme{
+    boxe-sizing: border-box;
+    width: 100%;
+
+}
+.img_pc{
+    boxe-sizing: border-box;
+    width: 100%;
+  ;
+}
+.img_pcportable{
+    boxe-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+/*FOOTER ALEXIS*/
+.page_entiere{
+    margin-top: 30px;
+}
+.footer_partie_haute
+{
+    background-color: #EEEEEE;
+
+}
+.footer_partie_basse
+{
+    background-color: #007DB8;
+
+}
+.txt_sur_fond_bleu
+{
+    color: white;
+}
+.txt_sur_fond_gris
+{
+    color: grey;
+}
+.listes
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*CONTAINER FLUID*/
+
+    .alt-grid .container-fluid {
+      width:100%;
+      max-width:none;
+      padding:0;
+      margin:0;
+    }
+    .alt-grid .row {
+      margin-left:0;
+      margin-right:0;
+    }
+    .container-fluid{
+        padding:0;
+    }
